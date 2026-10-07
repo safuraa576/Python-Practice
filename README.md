@@ -54,6 +54,7 @@ It's to:
 |---|---|---|
 | 🧮 **Mini Calculator** | Command-line calculator supporting multiple arithmetic operations | Input, variables, operators, conditions |
 | 🎮 **Word Guessing Game** | Interactive word guessing game with random words, category hints and limited attempts | Lists, dictionaries, strings, loops, random |
+| 🎯 Guessing Numbers | Interactive number guessing game with random numbers, higher/lower hints and unlimited attempts | Random, input, loops, conditions, break |
 
 ---
 
@@ -127,3 +128,44 @@ The game currently includes words from categories such as:
     YES        NO
      ↓          ↓
   🏆 WIN     Continue
+```
+
+### 🎯 GUESSING NUMBERS
+A simple command-line number guessing game built using Python.
+The program generates a random number between 1 and 50, and the player keeps guessing until they find the correct number.
+✨ Features
+- 🎲 Random number generation
+- 🔢 Numbers between 1–50
+- 📥 User input
+- 📈 Too High feedback
+- 📉 Too Low feedback
+- 🎉 Winning condition
+- 🔁 Continuous guessing using a while loop
+
+``` 🎮 Game Flow
+       🎲 Random Number
+              ↓
+        🔢 Make a Guess
+              ↓
+       ┌───────────────┐
+       │   Correct?    │
+       └───────┬───────┘
+          YES  │  NO
+           ↓   ↓
+       🎉 WIN! ┌──────────────┐
+               │ Higher/Lower?│
+               └──────┬───────┘
+                      ↓
+                 🔁 Try Again
+
+
+```
+## 🧠 Concepts Practiced
+```
+-random.randint()
+-input()
+-int()
+-while loop
+-if / elif / else
+-break
+```
