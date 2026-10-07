@@ -162,10 +162,10 @@ The program generates a random number between 1 and 50, and the player keeps gue
 ```
 ## 🧠 Concepts Practiced
 ```
--random.randint()
--input()
--int()
--while loop
--if / elif / else
--break
+random.randint()
+input()
+int()
+while loop
+if / elif / else
+break
 ```
